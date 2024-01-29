@@ -299,8 +299,8 @@ public class GameLogic implements PlayableLogic {
     public void undoLastMove() {
         if (undo.size() >= 2) {
             undo_lest_move = false;
-            undo.removeLast();
-            undo.removeLast();
+            undo.remove(undo.size()-1);
+            undo.remove(undo.size()-1);
             reset();
             for (int i = 0; i < undo.size(); i = i + 2) {
                 move(undo.get(i), undo.get(i + 1));
