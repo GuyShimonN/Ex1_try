@@ -6,6 +6,7 @@ public class Main {
     /**
      * The Main function to start the game.
      * Don't make any changes here
+     *
      * @param args
      */
     public static void main(String[] args) {
