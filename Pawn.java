@@ -18,6 +18,3 @@ public class Pawn extends ConcretePiece{
         this.kill++;
     }
 }
-//test
-//imaniak
-// orel test
